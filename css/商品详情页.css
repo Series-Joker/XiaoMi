@@ -1,0 +1,575 @@
+.top-box{
+    width: 100%;
+    background-color: #333333;
+}
+.top-box .toolbar{
+    width:1224px;
+    height: 40px;
+    /*background-color: yellow;*/
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+}
+.toolbar .nav{
+    float: left;
+    font-size: 12px;
+}
+.toolbar .nav1{
+    float: right;
+    font-size: 12px;
+    /*position: relative;*/
+}
+.toolbar a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.toolbar a:hover{
+    color: ghostwhite;
+}
+.toolbar .a2:hover{
+    color: rgb(245,103,0);
+    background-color:white;
+}
+.toolbar span{
+     color:#424242;
+}
+.toolbar .span1{
+    padding: 5px;
+    color:#424242;
+}
+.toolbar .a1{
+    padding: 6px;
+}
+.toolbar .a2{
+    position: relative;
+    /*display: block;*/
+    float: right;
+    width: 150px;
+    height: 40px;
+    background-color: #424242;
+    margin-left: 20px;
+}
+/*header*/
+.header{
+    width:100%;
+    border: solid 1px gainsboro;
+}
+.header-box{
+    position: relative;
+    width: 1224px;
+    height: 100px;
+    /*background-color: yellow;*/
+    margin: auto;
+    text-align: center;
+}
+.header-box .icon-xiaomi{
+    position:absolute;
+    margin-top:20px;
+    color:white;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255,103,0);
+    line-height: 55px;
+    text-align: center;
+}
+.header-box .header-nav{
+    position: absolute;
+    margin:auto;
+    left: 100px;
+    margin-top:30px;
+    /*background-color: blue;*/
+}
+.header-box .header-nav ul li{
+    /*background-color: green;*/
+    float: left;
+    padding: 10px;
+}
+.header-box .header-nav ul li:hover{
+    color: rgb(255,103,0);
+}
+.header-box .input1{
+    position: absolute;
+    right: 50px;
+    top: 28px;
+    width: 224px;
+    height: 46px;
+    border:solid 1px gainsboro;
+}
+.input2{
+    position: absolute;
+    right: 0px;
+    top: 28px;
+    width: 50px;
+    height: 50px;
+    border:solid 1px gainsboro;
+    border-left: 0px;
+    color: #dddddd;
+    background-color: white;
+}
+.icon-sousuo{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top:40px;
+    color: #b0b0b0;
+}
+.header-box span{
+    font-size: 10px;
+    color: dimgrey;
+    padding: 5px;
+    background-color: gainsboro;
+}
+.header-box .span1{
+    position: absolute;
+    right: 140px;
+    top:45px;
+}
+.header-box .span1:hover{
+    color: white;
+    background-color: rgb(255,103,0);
+}
+.header-box .span2:hover{
+    color: white;
+    background-color: rgb(255,103,0);
+}
+.header-box .span2{
+    position: absolute;
+    right: 70px;
+    top:45px;
+}
+
+/*reference*/
+.reference{
+    width:100%;
+}
+.reference .reference-box{
+    width: 1224px;
+    height: 63px;
+    /*background-color: pink;*/
+    margin: auto;
+}
+.reference-box .div1{
+    line-height: 63px;
+    font-size: 18px;
+    float: left;
+    color: #212121;
+}
+.reference-box .div2{
+    float: right;
+    line-height: 63px;
+}
+.reference-box .div2 span{
+    padding: 5px;
+    font-size: 14px;
+    color:#e0e0e0;
+}
+.div2 a{
+    font-size: 14px;
+    color:#616161;
+}
+/*content*/
+.content{
+    width: 100%;
+}
+.content .content-box{
+    width: 1224px;
+    height: 700px;
+    /*background-color: pink;*/
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.content-box .picture{
+    width: 560px;
+    height: 560px;
+    background-color: blue;
+    background-image: url("../imgs/shop1.jpg");
+    background-size: contain;
+    position: absolute;
+}
+.picture .ul1 .span{
+    position: absolute;
+    font-size: 60px;
+    position: absolute;
+    top: 250px;
+    color: gainsboro;
+    background-color: white;
+    background-size: 80px;
+    line-height: 80px;
+}
+.picture .ul1 .span:hover{
+    color: white;
+    background-color: #757575;
+}
+.picture .ul2 li{
+    border: gainsboro solid 2px;
+    padding: 0 30px;
+    float: left;
+    margin-left:30px;
+}
+.picture .ul2{
+    position: absolute;
+    top: 530px;
+    margin-left:120px;
+}
+.picture .ul2 .li1:hover{
+    border: #757575 solid 2px;
+}
+/*描述*/
+.content-box .describe{
+    position: absolute;
+    right: 0px;
+    width: 606px;
+    /*background-color: yellow;*/
+}
+.describe h1{
+    font-size: 24px;
+    color: #212121;
+    /*margin-bottom: 10px;*/
+}
+.describe .p1{
+    color: #b0b0b0;
+    font-size: 14px;
+    padding: 8px 0px;
+}
+.describe .p1 span{
+    color: rgb(255, 74, 0);
+}
+.describe .p2{
+    color: #ff6700;
+    font-size: 14px;
+    margin-top: 14px;
+}
+.describe .p3{
+    font-size: 18px;
+    color: #ff6700;
+    margin: 20px 0px;
+}
+.describe .active{
+    width: 100%;
+    border-bottom: solid 1px gainsboro;
+    border-top: solid 1px gainsboro;
+    /*background: yellow;*/
+}
+.active .active-box{
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.describe .active .a1{
+    display: block;
+    width: 80px;
+    height: 25px;
+    background-color: #ff6700;
+    font-size: 14px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    pading:2px;
+    float: left;
+}
+.describe .active .a2{
+    width: 300px;
+    height: 25px;
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333333;
+    line-height: 25px;
+    margin-left: 5px;
+}
+.describe .address{
+    width: 100%;
+    font-size: 14px;
+    border: solid 1px gainsboro;
+    margin: 10px 0px;
+    background-color: #fafafa;
+}
+.address .address-box{
+    width: 400px;
+    margin: 20px 0px;
+}
+.icon-dizhi{
+    float: left;
+    margin-left: 20px;
+}
+.address-box .address-info .item{
+    color: #333333;
+    float: left;
+    padding: 2px 10px;
+}
+.address-box .update{
+    color: #ff6700;
+    padding: 2px 10px;
+}
+.address .prompt{
+    color: #ff6700;
+    padding: 3px 50px;
+    margin-bottom: 35px;
+}
+.describe .coloe-box {
+    width: 100%;
+}
+.coloe-box .color{
+    font-size: 18px;
+    color: #333333;
+    margin-left: 5px;
+}
+.describe .select-type{
+    width: 290px;
+    height: 40px;
+    border:solid 1px #ff6700;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 5px 0px;
+}
+.describe .select-type .picture{
+    width: 20px;
+    height: 20px;
+    background-image: url("../imgs/shop4.jpg");
+    background-size: contain;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.select-type .selected{
+    color: #ff6700;
+ }
+.describe .describes{
+    width:100%;
+    background-color: #fafafa;
+    margin-top: 30px;
+}
+.describes p{
+    padding: 25px 0px;
+}
+.describes p .d1{
+    font-size: 14px;
+    color: #616161;
+
+}
+.describes p .d2{
+    font-size: 14px;
+    color: #616161;
+
+}
+.describes .d3{
+    font-size: 24px;
+    color: #ff6700;
+}
+.describe .span1 a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 10px;
+    background-color: #ff6700;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+    float: left;
+}
+.describe span .icon-aixin{
+    display: block;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 10px;
+    background-color: #B0B0B0;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    float: left;
+}
+.describe span .icon-aixin:hover{
+    background-color: #616161;
+}
+.describe .benefits{
+    width: 100%;
+    position: absolute;
+    top: 630px;
+    padding: 30px 0px;
+    /*margin-bottom: 30px;*/
+}
+.benefits .icon-fangxingou-gou{
+    color: #B0B0B0;
+    /*background-color: white;*/
+}
+.content-mid{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.content-mid .mid-box{
+    width: 1224px;
+    height: 560px;
+    margin: auto;
+}
+.content-mid .mid-box .p1{
+    color: #333333;
+    font-size: 25px;
+    padding: 25px 0px;
+}
+.mid-box .backg1{
+    width: 1224px;
+    height: 180px;
+    background-image: url("../imgs/shop5.jpg");
+    background-size: contain;
+}
+.content-mid .mid-box .p2{
+    color: #333333;
+    font-size: 25px;
+    padding: 25px 0px;
+}
+.mid-box .backg2{
+    width: 1224px;
+    height: 180px;
+    background-image: url("../imgs/shop6.jpg");
+    background-size: contain;
+}
+.content-bottom{
+    width: 100%;
+}
+.content-bottom .bottom-box{
+    width: 1224px;
+    margin: auto;
+}
+.content-bottom .bottom-box .d1{
+    height: 80px;
+    line-height: 80px;
+    border-bottom: #B0B0B0 1px solid;
+    margin-top: 40px;
+}
+.content-bottom .bottom-box .d1 span:hover{
+    color: #ff6700;
+}
+
+.bottom-box .sp1{
+    border-right: #B0B0B0 1px solid;
+    padding: 0px 15px;
+}
+.content-bottom .bottom-box .d2{
+    height: 240px;
+    margin-top: 40px;
+
+}
+.dd2{
+    width: 900px;
+    height: 200px;
+    float: left;
+}
+.dd2  .li1{
+    float: left;
+    color: #616161;
+    font-size: 14px;
+    margin-right:50px;
+    padding: 0px 20px;
+}
+.dd2 .li1 a{
+    display: block;
+    font-size: 12px;
+    color: #757575;
+    margin: 20px 0px;
+    /*line-height: 30px;*/
+}
+.dd2 .li1 a:hover{
+    color: #ff6700;
+}
+.content-bottom .bottom-box .d3{
+    width: 300px;
+    float: left;
+    border-left: #B0B0B0 1px solid;
+    margin: auto;
+    text-align: center;
+}
+.d3 .p1{
+    color: #ff6700;
+    font-size: 22px;
+}
+.d3 .p2{
+    width:150px;
+    line-height: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+.icon-duihuakuang {
+    border: solid 1px #ff6700;
+    color: #ff6700;
+    padding: 5px 35px;
+}
+/*footer*/
+.footer{
+    background-color: #fafafa;
+}
+.footer .footer-box{
+    width: 1224px;
+    margin: auto;
+    text-align: center;
+    /*border: #333333 solid 1px;*/
+    overflow: hidden;
+    height: 200px;
+    padding-top: 20px;
+}
+.footer .footer-box .icon-xiaomi{
+    color:white;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255,103,0);
+    line-height: 55px;
+    text-align: center;
+    float: left;
+}
+
+.footer .footer-box .text{
+    position: absolute;
+    /*border: #333333 solid 1px;*/
+    float: left;
+    margin-left: 160px;
+    line-height: 20px;
+    color: #757575;
+    font-size: 12px;
+}
+.footer .footer-box .text a{
+    font-size: 12px;
+    color: #757575;
+}
+.footer .footer-box .text a:hover{
+    color: #ff6700;
+}
+
+/*二维码*/
+.download{
+    width: 100%;
+    position: absolute;
+    left:600px;
+    top: 40px;
+    display: none;
+}
+.download .download-erweima{
+    width: 100px;
+    border: #dddddd solid 1px;
+}
+.download-erweima a img{
+    width: 100px;
+    height: 100px;
+}
+.download-erweima p{
+    text-align: center;
+}
+/*购物车*/
+.shopping{
+    width:330px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+    display: none;
+    position: absolute;
+    right:61px;
+    top: 40px;
+    box-shadow: 0 0 8px #B0B0B0 ;
+}
+
+
